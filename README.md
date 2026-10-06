@@ -1,8 +1,9 @@
 # Clinical-Adverse-Events-of-CTCAE-SOC-PT-
 Clinical programming project for generating a CTCAE Grade 3+ adverse event table using ADaM datasets.
-SAS Clinical Programming: CTCAE Grade 3+ Adverse Events
-Overview
-This project demonstrates SAS clinical programming for generating a clinical safety table of CTCAE Grade 3 or higher adverse events by System Organ Class (SOC) and Preferred Term (PT).
+
+This project demonstrates clinical programming for generating a clinical safety table of CTCAE Grade 3 or higher adverse events by System Organ Class (SOC) and Preferred Term (PT) using both SAS and R.
+
+
 
 The analysis uses ADaM-style datasets and follows a structured clinical programming workflow from data preparation through table generation.
 
@@ -41,40 +42,30 @@ The program expects ADaM-style datasets:
 ADAE
 
 Adverse Events dataset containing variables such as:
-
 USUBJID
-
 AESEQ
-
 AESOC
-
 AEDECOD
-
 AETOXGR
-
 AESTD
-
 AESTDTC
-
 ADSL
 
 Subject-Level Analysis Dataset containing variables such as:
-
 USUBJID
-
 SAFFL
-
 TRT01A
-
 TRT01AN
-
 TRTSDT
-
 TRTEDT
 
 Output
 
 The program generates:AE_ctcae123SAF11_project.pdf
+R
+The R implementation provides an equivalent analysis workflow using R-based data manipulation and reporting techniques.
+
+
 
 The output contains adverse events of CTCAE Grade 3 or higher summarized by System Organ Class and Preferred Term for the Safety Analysis Set.
 
@@ -82,9 +73,8 @@ DATA PRIVACY
 
 This repository is intended for portfolio and educational purposes.
 
-Tools
-
-SAS | ADaM | Clinical Programming | Clinical Safety Analysis | ODS Reporting
+SKILLS DEMONSTRATED
+SAS | ADaM | Clinical Programming | Clinical Safety Analysis | ODS Reporting|R
 
 Author
 
