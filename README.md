@@ -62,8 +62,27 @@ TRTEDT
 Output
 
 The program generates:AE_ctcae123SAF11_project.pdf
+
 R
+
 The R implementation provides an equivalent analysis workflow using R-based data manipulation and reporting techniques.
+
+R Programming Skills Demonstrated
+
+
+ADaM-style clinical data processing
+ADAE and ADSL dataset integration
+Safety Analysis Set filtering
+CTCAE Grade 3+ adverse event identification
+Treatment and analysis-window derivation
+Subject-level deduplication
+SOC and Preferred Term summarization
+Treatment-group denominator calculations
+Patient count and percentage derivation
+Clinical table generation and formatting
+Tidyverse-based data manipulation
+Reproducible clinical programming
+SAS-to-R analytical workflow translation
 
 
 
